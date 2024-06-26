@@ -1,0 +1,22 @@
+.title{
+    width: 100%;
+    text-align: center;
+    /* margin: 15px  0px 14px;
+     */
+     margin-top: 50px;
+     
+}
+.title h1{
+    font-size: 32px;
+    color: #000F38;
+    margin-top: 5px;
+    text-transform: none;
+}
+@media (max-width: 350px){
+    .title{
+        margin-top: 10px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+}

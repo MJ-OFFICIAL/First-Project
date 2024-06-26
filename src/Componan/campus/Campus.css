@@ -1,0 +1,31 @@
+.campus{
+    margin: 80px  auto;
+    width: 90%;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.gallery img{
+    width: 250px;
+    height: 300px;
+    
+}
+.gallery img:hover{
+   
+    border: 2px solid  purple;
+}
+
+@media (max-width: 780px) {
+    .campus{
+        margin: 20px;
+    }
+    .gallery{
+        flex-wrap: wrap;
+    }
+}

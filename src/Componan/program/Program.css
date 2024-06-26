@@ -1,0 +1,40 @@
+.img_container{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex; 
+    justify-content: space-evenly;
+    margin: 50px auto ;
+    align-items: center;
+    gap: 20px;
+    
+}
+.program_container img{
+    border:1px solid rgb(94, 94, 183);
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px;
+} 
+@media (max-width:780px){
+   .program{
+    flex-direction: column;
+    gap: 10px;
+     
+  
+   }
+   .program_container img{
+    height: 300px;
+   }
+   .img_container{
+    margin: 10px;
+   }
+}
+@media (max-width:350){
+    .program_container img{
+        
+        height: 200px;
+    }
+}
+
+ 
+  
+ 
