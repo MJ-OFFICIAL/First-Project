@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    background-color: rgb(90, 162, 244);
+     
+    border-radius: 15px;
 }
 .about_left{
     flex-basis: 40%;
