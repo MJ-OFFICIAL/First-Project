@@ -8,12 +8,24 @@
     gap: 20px;
     
 }
+.img_container h1{
+    position: relative;
+    color: rgb(143, 243, 57);
+    top: 200PX;
+    left: 100px;
+    display: none;
+}
 .program_container img{
     border:1px solid rgb(94, 94, 183);
     width: 300px;
     height: 400px;
     box-shadow: 4px;
 } 
+.program_container img:hover{
+    transform: scale(1.03);
+    
+   
+}
 @media (max-width:780px){
    .program{
     flex-direction: column;
@@ -21,7 +33,7 @@
      
   
    }
-   .program_container img{
+  .program_container img{
     height: 300px;
    }
    .img_container{
@@ -30,8 +42,10 @@
 }
 @media (max-width:350){
     .program_container img{
-        
-        height: 200px;
+      
+       height: 200px;
+       
+         
     }
 }
 

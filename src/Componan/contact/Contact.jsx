@@ -47,7 +47,7 @@ const Contact = () => {
                 <input type="tel" name='phone' placeholder='Enter Your Number' required />
                 <label>Writte Your Messages Here</label>
                 <textarea name="message"  id="" rows="4" placeholder='Enter Your Massage'></textarea>
-                <button type='submit' className=' bg-blue-500 text-white rounded-2xl p-3 mt-2 font-bold'>Submit Now</button>
+                <button type='submit' className=' bg-blue-500 text-white rounded-2xl p-3 mt-2 font-bold hover:bg-blue-600'>Submit Now</button>
             </form>
             <span>{result} </span>
         </div>

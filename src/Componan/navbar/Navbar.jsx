@@ -22,9 +22,9 @@ const Navbar = () => {
   return (
     <div>
       <nav className={  `${sticky? 'dark_nav': ''}`} >
-        <div className=' w-25 h-10 rounded-xl flex text-2xl font-bold justify-center'>
-           <FaGraduationCap /> 
-           <h1>Edusity</h1>
+        <div className=' w-25 h-10 rounded-xl flex text-2xl font-bold justify-center '>
+           <FaGraduationCap className=' text-5xl' /> 
+           <h1  className=' text-4xl' >Edusity</h1>
         </div>
         <div >
 
@@ -34,7 +34,7 @@ const Navbar = () => {
             <li> <Link to='about' smooth='{true}' offset={-150} duration={500} >About Us</Link></li>
             <li> <Link to='campus' smooth='{true}' offset={-210} duration={500} >Cumpus</Link></li>
             <li> <Link to='testimonials' smooth='{true}' offset={-200} duration={500} >Testimanials</Link></li>
-            <button className=' contact_btn bg-white rounded-3xl text-black text-xl cursor-pointer'>
+            <button className=' contact_btn bg-white rounded-3xl text-black text-xl cursor-pointer hover:bg-slate-300 '>
             <li> <Link to='contact' smooth='{true}' offset={-150} duration={500} >Contact Us</Link></li>
           
             </button>

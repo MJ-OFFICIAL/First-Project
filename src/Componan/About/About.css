@@ -16,6 +16,9 @@
     width: 100%;
     
 }
+.about-img:hover{
+    transform: scale(1.05);
+}
 .about h3{
     font-weight: 600;
     font-size: 16px;

@@ -17,8 +17,8 @@
     
 }
 .gallery img:hover{
-   
-    border: 2px solid  purple;
+   transform: rotate(4deg);
+  transition: 0.1s;
 }
 
 @media (max-width: 780px) {
@@ -27,5 +27,13 @@
     }
     .gallery{
         flex-wrap: wrap;
+    }
+}
+@media (max-width:350px) {
+    .gallery img{
+        width: 200px;
+        height: 250px;
+        margin-left: 20px ;
+    
     }
 }

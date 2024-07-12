@@ -10,7 +10,7 @@ const Program = () => {
       <div className="program_container   ">
        <img  src={program_1} alt="" className=' rounded-2xl '/>
       </div>
-      <div className="program_container  ">
+      <div className="program_container  "> <h1>JAMADAR</h1>
         <img src={program_2} alt="program2" className=' rounded-2xl ' />
       </div>
       <div className="program_container ">
